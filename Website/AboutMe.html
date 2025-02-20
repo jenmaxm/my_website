@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+        h1 {
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            display: grid;
+        }
+        
+        #footer {
+            margin-top: 30px; /* Adds space between the content above */
+            text-align: center;
+        }
+        main {
+            text-align: center;
+            display: flex; /* Enables flexbox layout */
+            justify-content: center; /* Centers the images horizontally */
+            gap: 40px; /* Adds space between the images */
+            flex-wrap: wrap; /* Allows wrapping of images on smaller screens */
+            margin-top: 20px; /* Optional: adds some space between the header and images */
+        }
+                /* Style for the navigation bar */
+        nav ul {
+            list-style-type: none;  /* Removes bullet points */
+            padding: 0;
+            margin: 0;
+            display: flex;  /* Makes the list items horizontal */
+            justify-content: center;  /* Centers the list items */
+        }
+
+        nav ul li {
+            margin-right: 20px;  /* Space between items */
+        }
+
+        nav ul li a {
+            text-decoration: none;  /* Removes underlines from links */
+            color: #000;  /* Text color for the links */
+            font-size: 18px;  /* Font size of links */
+        }
+
+        nav ul li a:hover{
+            color:rgb(112, 112, 112);
+        }
+        .social-links {
+            display: inline-block; /* Makes the social links appear in a row */
+            margin-top: 10px; /* Adds space between the copyright and social links */
+        }
+
+        .social-links a {
+            text-decoration: none; /* Removes the underline from links */
+            margin: 10px; /* Adds space between icons */
+        }
+            
+        .about-me-container {
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            align-items: center; /* Center-align the content */
+            gap: 20px; /* Space between photos and about-me section */
+        }
+
+
+        /* Left and right photo containers */
+
+        .photos {
+            display: flex;
+            flex-direction: row;
+            gap: 5px; /* Space between images */
+            flex-wrap: wrap; /* Allow wrapping if necessary */
+        }
+
+        /* Styling for images */
+        .photos img {
+            width: calc(25% - 5px); /* 4 images per row, minus the gap between them */
+            height: auto;
+            border-radius: 8px; /* Optional: rounded corners */
+        }
+
+
+        /* About me text section */
+        .about-me {
+            flex: 1; /* Takes up remaining space */
+            text-align: left;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="PW.html">Home</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href='Projects.html'>Projects</a></li>
+                <li><a href="CV_LatEx.pdf">CV</a></li>
+                <li><a href="#footer">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="about-me-container">
+
+            <div class="photos">
+                <img src="football.jpg" alt="Photo 1" width="425px">
+                <img src="cricket.JPG" alt="Photo 2" width="350px">
+                <img src="boxing.png" alt="Photo 4" width="325px">
+                <img src="hike.png" alt="Photo 5" width="325px">                
+            </div>
+
+            <div class="about-me">
+                <p> Hey, I'm Jensen, a second-year Computer Science and Maths student at Loughborough University. <br>  
+                    I lived in the Netherlands till I was 9, so I’ve always been into cycling, football, and just staying active in general. <br>  
+                    I’m all about sports—whether it’s playing football, going for a run, watching a match, or jumping into a game of cricket with friends. </p>  
+                    
+                    <p> I also love cycling and hiking—nothing beats exploring new trails, getting some fresh air, and just enjoying the outdoors. <br>  
+                    When I’m not out being active, you’ll probably find me chilling with my guitar, playing some Arctic Monkeys or whatever feels right at the moment. </p>  
+                    
+                    <p> Basically, I’m always up for a challenge, whether it’s in sports, music, or just a random new adventure! </p>
+                    
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer">
+            <p>&copy; Jensen Martin</p>
+            <div class="social-links">
+                <a href="https://github.com/jenmaxm" target="_blank">
+                    <img src="github_icon.jpg" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;"> 
+                </a>            
+                <a href="https://linkedin.com/in/jensen-martin-85aa032b5/" target="_blank">
+                    <img src="linkedin.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;">    
+                </a>
+                <p>
+                    <a href="mailto:jensenmartinm@gmail.com" style="color: #000000; vertical-align: middle;">jensenmartinm@gmail.com</a>
+                </p>
+                <p>
+                    Phone number: 07340375182
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

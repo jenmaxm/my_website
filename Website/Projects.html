@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header, footer {
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            color: rgb(112, 112, 112);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 80%;
+            margin-top: 20px;
+        }
+        .sub-container {
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .left, .right {
+            width: 50%;
+            padding: 10px;
+        }
+        .left {
+            text-align: left;
+        }
+        .right {
+            text-align: right;
+        }
+        #footer {
+            margin-top: 30px;
+        }
+        .social-links a {
+            text-decoration: none;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="PW.html">Home</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href='Projects.html'>Projects</a></li>
+                <li><a href="CV_LatEx.pdf" target="_blank">CV</a></li>
+                <li><a href="#footer">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sub-container">
+            <div class="left">
+                <h3>Daisyworld Model</h3>
+                <p> For my A-Level project, I developed a user-friendly graphical user interface (GUI) to better visualize and understand the Daisyworld model—a theoretical simulation that explores the intricate feedback mechanisms between life and its environment. <br>  
+                    <br>The Daisyworld model, originally proposed by James Lovelock, demonstrates how simple organisms, in this case, black and white daisies, can influence and regulate planetary temperature through their impact on albedo (the reflectivity of a surface). <br>  
+                    By absorbing or reflecting solar radiation, these daisies create a dynamic, self-regulating climate system that maintains equilibrium under varying solar luminosity. </p>  
+                    
+                <p> My project aimed to break down this concept into a more accessible and interactive format, allowing users to manipulate key variables such as solar input, daisy growth rates, and environmental conditions, observing in real-time how these factors influence planetary temperature and ecosystem stability. <br>  
+                    The GUI provides an intuitive way to visualize complex interactions, making it easier to grasp the profound implications of biotic-abiotic feedback loops in climate regulation. <br>  
+                    <br>This project not only deepened my understanding of computational modeling and system dynamics but also highlighted the significance of self-regulating mechanisms in planetary ecosystems. </p>
+                    
+            </div>
+            <div class="right">
+                <img src="Daisyworld.png" alt="Project 1" style="width: 400px; height: auto;">
+            </div>
+        </div>
+        <div class="sub-container">
+            <div class="left">
+                <h3>Online shop</h3>
+                <p>This project is a Java-based online shopping system with a 
+                    graphical user interface (GUI) that allows users to browse, 
+                    add products to a cart, and proceed to checkout. 
+                    The system is designed to handle product management, 
+                    user interaction, and a simulated checkout experience. 
+                    <br>
+                    <br>
+                    It utilizes Java Swing or JavaFX for building the GUI, 
+                    object-oriented programming (OOP) for structuring products, 
+                    user roles, and shopping logic, and event-driven programming for handling user 
+                    interactions through buttons, drop-down menus, and form inputs.
+                </p>
+            </div>
+        <div class="right">
+            <img src="Online_Shop2.png" alt="Project 2" width="500px">
+        </div>
+        </div>
+        <div class="sub-container">
+            <div class="left">
+                <h3>Weather App</h3>
+                <p> This Python script creates a fully functional Weather App using the tkinter library for the graphical user interface (GUI) and the OpenWeather API to retrieve real-time weather data. <br>
+                    <br>  
+                    The app provides an intuitive and user-friendly interface where users can input the name of any city, triggering an API request to fetch comprehensive weather details, including temperature, weather conditions, and atmospheric descriptions. <br> 
+                    <br> 
+                    The temperature is displayed in Celsius for easy interpretation, and a corresponding weather icon is dynamically retrieved and displayed, enhancing the visual appeal of the application. <br> 
+                    <br> 
+                    This project not only demonstrates the integration of APIs with Python but also showcases how GUI-based applications can provide real-time, interactive experiences for users. </p>                    
+            </div>
+            <div class="right">
+                <img src="Weather.png" alt="Project 3" style="width: 300px; height: auto;">
+            </div>
+        </div>
+        <div class="sub-container">
+            <div class="left">
+                <h3>Music Player</h3>
+                <p> This Python script creates an intuitive and user-friendly Music Player application, utilizing the Tkinter library for the graphical user interface (GUI) and the Pygame library for seamless music playback. <br>  
+                    <br>
+                    The application allows users to load MP3 files from a selected folder, providing essential playback controls such as play, pause, resume, and stop. <br><br>  
+                    Additionally, users can easily navigate through their music collection, selecting and playing different tracks effortlessly. <br><br>  
+                    With a simple yet functional design, this project showcases the integration of Python libraries to create interactive and engaging multimedia applications. </p>                    
+            </div>
+            <div class="right">
+                <img src="Music.png" alt="Project 3" style="width: 400px; height: auto;">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <p>&copy; Jensen Martin</p>
+            <div class="social-links">
+                <a href="https://github.com/jenmaxm" target="_blank">
+                    <img src="github_icon.jpg" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle;"> 
+                </a>            
+                <a href="https://linkedin.com/in/jensen-martin-85aa032b5/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px; vertical-align: middle;">    
+                </a>
+                <p>
+                    <a href="mailto:jensenmartinm@gmail.com" style="color: #000000; vertical-align: middle;">jensenmartinm@gmail.com</a>
+                </p>
+                <p>Phone number: 07340375182</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
